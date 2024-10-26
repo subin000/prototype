@@ -100,15 +100,15 @@ const weeklyMenu = {
     { name: 'Caesar Salad', description: 'Fresh salad with Caesar dressing.', price: '5.49', image: 'https://via.placeholder.com/150' },
   ],
   Tuesday: [
-    { name: 'Veggie Burger', description: 'Healthy and tasty veggie burger with a side of fries.', price: '7.99', image: 'https://via.placeholder.com/150' },
+    { name: 'Veggie Burger', description: 'Healthy and tasty veggie burger with a side of fries.', price: '7.99', image: 'https://www.wellplated.com/wp-content/uploads/2016/03/Black-Bean-Vegan-Burger-Recipe-500x500.jpg' },
     { name: 'Mango Smoothie', description: 'Fresh mango smoothie to refresh your day.', price: '3.99', image: 'https://everylittlecrumb.com/wp-content/uploads/mangosmoothie-5-500x500.jpg' },
   ],
   Wednesday: [
-    { name: 'Veggie Burger', description: 'Healthy and tasty veggie burger with a side of fries.', price: '7.99', image: 'https://via.placeholder.com/150' },
+    { name: 'Veggie Burger', description: 'Healthy and tasty veggie burger with a side of fries.', price: '7.99', image: 'https://www.wellplated.com/wp-content/uploads/2016/03/Black-Bean-Vegan-Burger-Recipe-500x500.jpg' },
     { name: 'Mango Smoothie', description: 'Fresh mango smoothie to refresh your day.', price: '3.99', image: 'https://everylittlecrumb.com/wp-content/uploads/mangosmoothie-5-500x500.jpg' },
   ],
   Sunday: [
-    { name: 'Veggie Burger', description: 'Healthy and tasty veggie burger with a side of fries.', price: '7.99', image: 'https://via.placeholder.com/150' },
+    { name: 'Veggie Burger', description: 'Healthy and tasty veggie burger with a side of fries.', price: '7.99', image: 'https://www.wellplated.com/wp-content/uploads/2016/03/Black-Bean-Vegan-Burger-Recipe-500x500.jpg' },
     { name: 'Mango Smoothie', description: 'Fresh mango smoothie to refresh your day.', price: '3.99', image: 'https://everylittlecrumb.com/wp-content/uploads/mangosmoothie-5-500x500.jpg' },
   ],
 
@@ -121,7 +121,7 @@ const weeklyMenu = {
     { name: 'Caesar Salad', description: 'Fresh salad with Caesar dressing.', price: '5.49', image: 'https://via.placeholder.com/150' },
   ],
   Saturday: [
-    { name: 'Veggie Burger', description: 'Healthy and tasty veggie burger with a side of fries.', price: '7.99', image: 'https://via.placeholder.com/150' },
+    { name: 'Veggie Burger', description: 'Healthy and tasty veggie burger with a side of fries.', price: '7.99', image: 'https://www.wellplated.com/wp-content/uploads/2016/03/Black-Bean-Vegan-Burger-Recipe-500x500.jpg' },
     { name: 'Mango Smoothie', description: 'Fresh mango smoothie to refresh your day.', price: '3.99', image: 'https://everylittlecrumb.com/wp-content/uploads/mangosmoothie-5-500x500.jpg' },
   ],
   

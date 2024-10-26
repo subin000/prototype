@@ -8,8 +8,8 @@ import Sample from './Sample';
 import SignupPage from './signup';
 import Login from './login';
 import Home from './Home';
-import g from "./gharse.jpg"
-import "./App.css"
+import g from "./gharse.jpg";
+import "./App.css";
 
 function App() {
   const [userData, setUserData] = useState(null);
@@ -44,9 +44,9 @@ function App() {
   return (
     <>
       <Router>
-        <Navbar bg="dark" variant="dark" expand="lg" className="mb-4">
+        <Navbar bg="dark" variant="dark" expand="lg" fixed="top" className="mb-4">
           <Container>
-            <img id="logo" src={g}/>
+            <img id="logo" src={g} alt="Ghar Se" />
             <Navbar.Brand as={Link} to="/home">Ghar Se</Navbar.Brand>
             <Navbar.Toggle aria-controls="navbar-nav" />
             <Navbar.Collapse id="navbar-nav">
@@ -72,7 +72,8 @@ function App() {
           </Container>
         </Navbar>
 
-        <Container>
+        {/* Add padding to avoid content hidden behind the sticky navbar */}
+        <Container style={{ paddingTop: '80px' }}>
           <Routes>
             <Route path="/" element={<Sample />} />
             <Route path="/book" element={<Sample />} />
