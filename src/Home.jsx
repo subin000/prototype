@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { Container, Row, Col, Button, Card, Nav } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Home.css';
+import Sub from './Sub'
+import { Link } from 'react-router-dom';
 
 function Home() {
   const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
@@ -20,7 +22,8 @@ function Home() {
         <Container>
           <h1 className="display-4">Welcome to FoodCart Heaven!</h1>
           <p className="lead">Delicious, fresh, and fast – just the way you like it.</p>
-          <Button variant="light" size="lg" href="#menu">Explore Menu</Button>
+          <Button variant="light" size="lg" href="#menu" className="me-2">Explore Menu</Button>
+          <Link to="/book"><Button variant="light" size="lg">Subscribe</Button></Link>
         </Container>
       </section>
 

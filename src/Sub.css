@@ -1,0 +1,17 @@
+.subscription-section {
+    background-color: #f8f9fa;
+  }
+  
+  .card {
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-header {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  

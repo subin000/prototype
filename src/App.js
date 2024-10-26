@@ -10,6 +10,7 @@ import Login from './login';
 import Home from './Home';
 import g from "./gharse.jpg"
 import "./App.css"
+import Sub from './Sub';
 
 function App() {
   const [userData, setUserData] = useState(null);
@@ -75,7 +76,7 @@ function App() {
         <Container>
           <Routes>
             <Route path="/" element={<Sample />} />
-            <Route path="/book" element={<Sample />} />
+            <Route path="/book" element={<Sub />} />
             <Route path="/home" element={<Home />} />
             <Route path="/bookpage" element={<Sample />} />
             <Route path="/profile" element={<Sample />} />
