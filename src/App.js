@@ -5,6 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import { BrowserRouter as Router, Link, Route, Routes} from 'react-router-dom';
 import axios from 'axios';
 import Sample from './Sample';
+import Login from './login';
 
 function App() {
   const [userData, setUserData] = useState(null);
@@ -68,7 +69,7 @@ function App() {
           <Route path="/home" default element={<Sample />} />
           <Route path="/bookpage" element={<Sample />} />
           <Route path="/profile" element={<Sample />} />
-          <Route path="/login" element={<Sample />} />
+          <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Sample />} />
           <Route path="/hotelupload" element={<Sample />} />
           <Route path="/room" element={<Sample />} />
