@@ -8,8 +8,14 @@ import Sample from './Sample';
 import SignupPage from './signup';
 import Login from './login';
 import Home from './Home';
+<<<<<<< HEAD
 import g from "./gharse.jpg";
 import "./App.css";
+=======
+import g from "./gharse.jpg"
+import "./App.css"
+import Sub from './Sub';
+>>>>>>> 2bd6b869ae48c7bd7a1affc92735e0b3b44bf75d
 
 function App() {
   const [userData, setUserData] = useState(null);
@@ -76,7 +82,7 @@ function App() {
         <Container style={{ paddingTop: '80px' }}>
           <Routes>
             <Route path="/" element={<Sample />} />
-            <Route path="/book" element={<Sample />} />
+            <Route path="/book" element={<Sub />} />
             <Route path="/home" element={<Home />} />
             <Route path="/bookpage" element={<Sample />} />
             <Route path="/profile" element={<Sample />} />
