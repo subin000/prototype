@@ -18,7 +18,7 @@ function Login() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('https://ser-2f05.onrender.com//login', formData);
+      const response = await axios.post('https://ser-2f05.onrender.com/login', formData);
       localStorage.setItem('authToken', response.data.token);
       navigate('/home');
       
