@@ -1,0 +1,37 @@
+/* HomePage.css */
+
+.hero-section {
+    text-align: center;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+  }
+  
+  .hero-section h1 {
+    font-size: 2.5rem;
+  }
+  
+  @media (max-width: 576px) {
+    .hero-section h1 {
+      font-size: 1.8rem;
+    }
+  
+    .hero-section .lead {
+      font-size: 1rem;
+    }
+  
+    .popular-items-section h2,
+    .testimonials-section h2,
+    .contact-section h2 {
+      font-size: 1.5rem;
+    }
+  
+    .card-body {
+      padding: 0.5rem;
+    }
+  
+    .contact-section p {
+      font-size: 0.9rem;
+    }
+  }
+  

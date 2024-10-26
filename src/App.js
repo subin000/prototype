@@ -8,6 +8,8 @@ import Sample from './Sample';
 import SignupPage from './signup';
 import Login from './login';
 import Home from './Home';
+import g from "./gharse.jpg"
+import "./App.css"
 
 function App() {
   const [userData, setUserData] = useState(null);
@@ -44,6 +46,7 @@ function App() {
       <Router>
         <Navbar bg="dark" variant="dark" expand="lg" className="mb-4">
           <Container>
+            <img id="logo" src={g}/>
             <Navbar.Brand as={Link} to="/home">Ghar Se</Navbar.Brand>
             <Navbar.Toggle aria-controls="navbar-nav" />
             <Navbar.Collapse id="navbar-nav">
