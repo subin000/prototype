@@ -20,6 +20,7 @@ function Home() {
       {/* Hero Section */}
       <section className="hero-section text-center text-white p-5" style={styles.heroSection}>
         <Container>
+          
           <h1 className="display-4">Welcome to FoodCart Heaven!</h1>
           <p className="lead">Delicious, fresh, and fast – just the way you like it.</p>
           <Button variant="light" size="lg" href="#menu" className="me-2">Explore Menu</Button>
@@ -72,7 +73,8 @@ function Home() {
           <Row>
             {testimonials.map((testimonial, idx) => (
               <Col key={idx} xs={12} md={4} className="mb-4">
-                <Card className="bg-dark text-white h-100 shadow">
+               
+                 <Card className="bg-dark text-white h-100 shadow">
                   <Card.Body>
                     <Card.Text>"{testimonial.quote}"</Card.Text>
                     <footer className="blockquote-footer">{testimonial.name}</footer>
@@ -133,9 +135,9 @@ const weeklyMenu = {
 
 // Sample data for testimonials
 const testimonials = [
-  { name: 'John Doe', quote: 'Best food I’ve ever had on the go!' },
-  { name: 'Jane Smith', quote: 'Affordable and absolutely delicious.' },
-  { name: 'Sam Lee', quote: 'The flavors are amazing, and the service is fast!' },
+  { name: 'subin', quote: 'Best food I’ve ever had on the go!' },
+  { name: 'raj', quote: 'Affordable and absolutely delicious.' },
+  { name: 'aditya', quote: 'The flavors are amazing, and the service is fast!' },
 ];
 
 // Inline styles for sections

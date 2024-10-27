@@ -75,8 +75,8 @@ function App() {
 
         {/* Add padding to avoid content hidden behind the sticky navbar */}
         <Container style={{ paddingTop: '80px' }}>
-          <Routes>
-            <Route path="/" element={<Sample />} />
+          <Routes> 
+            <Route path="/" element={<Home />} />
             <Route path="/book" element={<Sub />} />
             <Route path="/home" element={<Home />} />
             <Route path="/bookpage" element={<Sample />} />

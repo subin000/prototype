@@ -1,5 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Contactus from './Contactus';
 
 const Sub = () => {
   return (
@@ -71,7 +72,9 @@ const Sub = () => {
           </div>
           
         </div>
+        <Contactus/>
       </div>
+      
     </section>
   );
 };
